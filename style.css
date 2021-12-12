@@ -20,3 +20,10 @@
     text-align: center;
     border: none;
 }
+#footer{
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    background-color: white;
+    width: 100%;
+}

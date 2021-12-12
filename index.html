@@ -18,18 +18,37 @@
         <center>
             <div class="btn btn-primary heading">
                 <h3>AI PING PONG GAME</h3>
-                <button class="btn btn-primary" data-toggle="moadal" data-target="#mymodal">Instructions</button>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#mymodal">Instructions</button>
               </div>
               <br>
               <br>
               <button id="play" onclick="startGame()" class="btn btn-success">PLAY</button>
+              <br>
+              <br>
+              <button id="restart" onclick="restart()" class="btn btn-warning">RESTART</button>
               <br> 
               <br>
               <h4 id="status" class="btn btn-info"></h4>
               <br>
               <br>
               <div id="canvas"></div>
+              <div id="footer">
+                <h3>Creator: Daksh Chaudhary</h3>
+              </div>
+              <div id="mymodal" class="modal fade">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button data-dismiss="modal" class="close">&times;</button> 
+                      <h4>Instructions</h4>
+                    </div>
+                    <div class="modal-body">
+                      <h4>No instruction images given in project</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
         </center>
-        <script src="main.js"></script>
+        <!--<script src="main.js"></script>-->
     </body>
 </html>
